@@ -3,7 +3,7 @@ export function buttonDisabled(quantity){
     const btnRemoveCard=document.querySelector("#removeCard")
     
     
-    if(quantity>=3){
+    if(quantity>=10){
         btnAddCard.setAttribute("disabled","")
     }else{
         if(quantity<=0){

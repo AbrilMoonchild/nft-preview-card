@@ -91,18 +91,19 @@ body{
 
 .nft-card-top_datos-dispo > span:nth-child(1) {
     color: var(--Cyan);
-    font-weight: 400;     
+    font-weight: 400; 
+        
 }
 
 .nft-card-top_datos-dispo > span:nth-child(1) img{
-    margin-right: 8px;
+    margin-left: 8px;
 }
 .nft-card-top_datos-dispo > span:nth-child(2){
     color: var(--Soft-blue);
     font-weight: 300; 
 }
 .nft-card-top_datos-dispo > span:nth-child(2) img{
-    margin-right: 8px;
+    margin-left: 8px;
 }
 
 
