@@ -21,16 +21,42 @@ html,body{
 body{
     height: 100vh;
     display: flex;
+    flex-direction: column;
 }
-
+.button-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 34px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+.button{
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    border:1px solid --Very-dark-blue-line;
+    color: var(--White);
+    background-color:var(--Very-dark-blackish-blue);
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+}
+.button:hover{
+    color:var(--Very-dark-blackish-blue);
+    background-color: var(--Cyan);
+}
+.button:disabled{
+    opacity: 0.5;
+}
 .nft-card{
     background-color: var(--Very-dark-blue-card-BG);
     display: flex;
     flex-direction: column;
     width: 85%;
-    margin: auto auto;
+    margin: 20px auto;
     border-radius: 8px;
-    overflow: hidden;
+    
 }
 .nft-card-top{
     
